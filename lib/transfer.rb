@@ -13,6 +13,6 @@ class Transfer
   end
 
   def execute_transaction
-    @receiver + @amount 
+    @receiver.balance += amount
   end
 end
