@@ -10,4 +10,5 @@ class Transfer
 
   def valid?
     sendor.bankaccount
+  end 
 end
