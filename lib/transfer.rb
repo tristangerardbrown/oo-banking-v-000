@@ -4,6 +4,6 @@ class Transfer
   def initialize(name1, name2, amount)
     @name1 = name1
     @name2 = name2
-    @amount = amount ß
+    @amount = amount
   end
 end
