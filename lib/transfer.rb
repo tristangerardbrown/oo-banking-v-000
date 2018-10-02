@@ -18,7 +18,6 @@ class Transfer
       @receiver.balance += self.amount
       @sender.balance -= self.amount
       self.status = "complete"
-      previous_amount = self.amount
       @receiver.balance
     else
       @status = "rejected"
